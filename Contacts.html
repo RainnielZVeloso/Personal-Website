@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Veloso</title>
+    <link rel="stylesheet" href="Contacts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Website Portfolio.html">Home</a></li>
+                <li><a href="Skills.html">Skills</a></li>
+                <li><a href="Certificates.html">Certificate</a></li>
+                <li><a href="Contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="title">
+        <h1 class="pageT">Contacts</h1>
+    </div>
+    <main>
+        <div class="container">
+            <!-- Facebook Section -->
+            <div class="box">
+                <i class="fab fa-facebook fa-4x icon"></i>
+                <p>Rainniel Veloso</p>
+                <button onclick="visitFacebook()">VISIT</button>
+            </div>
+    
+            <!-- Phone Section -->
+            <div class="box">
+                <i class="fas fa-phone-alt fa-4x icon"></i>
+                <p>09928703377</p>
+                <div class="button-container">
+                    <button onclick="copyPhoneNumber()">COPY</button>
+                </div>
+            </div>
+    
+            <!-- Gmail Section -->
+            <div class="box large">
+                <i class="fas fa-envelope fa-4x icon"></i>
+                <p>rainnielzv.scc@gmail.com</p>
+                <button onclick="sendEmail()">MESSAGE</button>
+            </div>
+        </div>
+        
+        <script src="Contacts.js"></script>
+    </main>
+</body>
+</html>
